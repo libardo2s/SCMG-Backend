@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PDF</title>
+
+</head>
+<body>
+    <div style="width:100%;text-align: center;">
+        <img src="{% static 'img/alcaldia-logo.jpg' %}" alt="alcaldia de valledupar" width="240px"/>
+    </div>
+    <div style="width:100%;text-align: center;margin-top:30px;">
+        <h1>Imagen consultada</h1>
+        <img src="{{img_comparacion}}" alt="alcaldia de valledupar" width="240px"/>
+    </div>
+    <div style="width:100%;text-align: center;margin-top:30px;">
+        <h1>Resultado</h1>
+        <img src="{{img_resultado}}" alt="alcaldia de valledupar" width="240px"/>
+    </div>
+    </div>
+</body>
+</html>
